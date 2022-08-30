@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    background-color: #eff0f1;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.title{
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Tables */
+table{
+    box-shadow: 0px 2px 9px 0px #b7b8b7;
+}
+th{
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #f1f5f8;
+}
+td{
+    font-weight: 500;
+    font-size: 14px;
+}
+td,th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgb(218, 215, 215);
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.images{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+/* .d-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+strong{
+    display: flex;
+    align-items: center;
+}
+.btn-info{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color:#e7e6e6 ;
+    cursor: pointer;
+}
+.btn-info:hover{
+    background-color:#b7b8b7 ;
+}
+
+/* Float display */
+.float{
+    position: absolute;
+    padding-top: 40px;
+    display: flex;
+    background-color: eff0f1;
+    height: 1200px;
+    top:0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 9px 0px #b7b8b7;
+    /* margin-left: 100px;
+    margin-right: 40px;; */
+    padding: 20px;
+    width: 60%;
+}
+.para{
+    
+    display: flex;
+    margin: 20px 0px;
+    border-bottom: 1px solid rgb(218, 217, 217);
+}
+  
+.las{
+    font-size: 25px;
+    margin-left: 150px;
+    color: #7c7c7c;
+    height: 40px;
+}
+.las:hover{
+    color: red;
+    cursor: pointer;
+}
+.extra-info{
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.value{
+    text-align: justify;
+    margin-bottom: 10px;
+    
+}
+.hide{
+    display: none;
+}
+
+.financial-asset{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.financial-asset:last-child{
+    border-bottom: none;
+}

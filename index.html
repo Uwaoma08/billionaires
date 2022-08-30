@@ -1,0 +1,101 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Billionaires</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,500&family=Pacifico&family=Roboto+Mono:wght@100;700&family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,500&family=Pacifico&family=Roboto+Mono:wght@100;700&family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Top 10 Billionaires in the World</h1>
+      <table id="table">
+        <thead>
+          <tr>
+            <th onclick="clickName()">NAME</th>
+            <th>NET WORTH (USD)</th>
+            <th>AGE</th>
+            <th>NATIONALITY</th>
+            <th>SOURCE(S) OF WEALTH</th>
+            <th>MORE INFO</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+
+    <!-- <tr>
+        <td><strong>Jeff Bezos</strong></td>
+        <td><strong>$131 billion</strong></td>
+        <td>55</td>
+        <td>United States</td>
+        <td>Amazon</td>
+      </tr> -->
+
+    <div id="more-info" class="float hide">
+      <div class="cont">
+        <div class="para">
+          <div class="value">
+            <img id="imageValue" class="images" src="" alt="photo" />
+          </div>
+        </div>
+        <div class="para">
+          <div class="extra-info"><p>Name:</p></div>
+          <div id="nameValue" class="value"></div>
+        </div>
+        <div class="para">
+          <div class="extra-info"><p>Gender:</p></div>
+          <div id="genderValue" class="value"></div>
+        </div>
+        <div class="para">
+          <div class="extra-info"><p>State:</p></div>
+          <div id="statevalue" class="value"></div>
+        </div>
+        <div class="para">
+          <div class="extra-info"><p>City:</p></div>
+          <div id="cityValue" class="value"></div>
+        </div>
+        <div class="para">
+          <div class="extra-info"><p>Source:</p></div>
+          <div id="sourceValue" class="value"></div>
+        </div>
+        <div class="para">
+          <div class="extra-info"><p>FinancialAssests:</p></div>
+          <div id="assetsValue" class="value"></div>
+        </div>
+        <div class="para">
+          <div class="extra-info"><p>About:</p></div>
+          <div id="aboutValue" class="value">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            quia eligendi nam provident fuga, deleniti maxime accusamus, itaque
+            reiciendis quisquam pariatur dolorum facilis vitae repellat ipsam
+            nobis modi, voluptate quaerat? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Reiciendis accusamus deleniti tempora
+            ipsam, quidem inventore praesentium illum suscipit, pariatur at,
+            architecto est. Tempore accusamus nostrum excepturi facere
+            distinctio maxime. Praesentium?
+          </div>
+        </div>
+      </div>
+      <i class="las la-times"></i>
+    </div>
+
+    <script src="table.js"></script>
+  </body>
+</html>
